@@ -1,0 +1,256 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Deck1\10_Clubs.png" />
+    <None Remove="Assets\Deck1\10_Diamonds.png" />
+    <None Remove="Assets\Deck1\10_Hearts.png" />
+    <None Remove="Assets\Deck1\10_Spades.png" />
+    <None Remove="Assets\Deck1\2_Clubs.png" />
+    <None Remove="Assets\Deck1\2_Diamonds.png" />
+    <None Remove="Assets\Deck1\2_Hearts.png" />
+    <None Remove="Assets\Deck1\2_Spades.png" />
+    <None Remove="Assets\Deck1\3_Clubs.png" />
+    <None Remove="Assets\Deck1\3_Diamonds.png" />
+    <None Remove="Assets\Deck1\3_Hearts.png" />
+    <None Remove="Assets\Deck1\3_Spades.png" />
+    <None Remove="Assets\Deck1\4_Clubs.png" />
+    <None Remove="Assets\Deck1\4_Diamonds.png" />
+    <None Remove="Assets\Deck1\4_Hearts.png" />
+    <None Remove="Assets\Deck1\4_Spades.png" />
+    <None Remove="Assets\Deck1\5_Clubs.png" />
+    <None Remove="Assets\Deck1\5_Diamonds.png" />
+    <None Remove="Assets\Deck1\5_Hearts.png" />
+    <None Remove="Assets\Deck1\5_Spades.png" />
+    <None Remove="Assets\Deck1\6_Clubs.png" />
+    <None Remove="Assets\Deck1\6_Diamonds.png" />
+    <None Remove="Assets\Deck1\6_Hearts.png" />
+    <None Remove="Assets\Deck1\6_Spades.png" />
+    <None Remove="Assets\Deck1\7_Clubs.png" />
+    <None Remove="Assets\Deck1\7_Diamonds.png" />
+    <None Remove="Assets\Deck1\7_Hearts.png" />
+    <None Remove="Assets\Deck1\7_Spades.png" />
+    <None Remove="Assets\Deck1\8_Clubs.png" />
+    <None Remove="Assets\Deck1\8_Diamonds.png" />
+    <None Remove="Assets\Deck1\8_Hearts.png" />
+    <None Remove="Assets\Deck1\8_Spades.png" />
+    <None Remove="Assets\Deck1\9_Clubs.png" />
+    <None Remove="Assets\Deck1\9_Diamonds.png" />
+    <None Remove="Assets\Deck1\9_Hearts.png" />
+    <None Remove="Assets\Deck1\9_Spades.png" />
+    <None Remove="Assets\Deck1\A_Clubs.png" />
+    <None Remove="Assets\Deck1\A_Diamonds.png" />
+    <None Remove="Assets\Deck1\A_Hearts.png" />
+    <None Remove="Assets\Deck1\A_Spades.png" />
+    <None Remove="Assets\Deck1\card_back.png" />
+    <None Remove="Assets\Deck1\J_Clubs.png" />
+    <None Remove="Assets\Deck1\J_Diamonds.png" />
+    <None Remove="Assets\Deck1\J_Hearts.png" />
+    <None Remove="Assets\Deck1\J_Spades.png" />
+    <None Remove="Assets\Deck1\K_Clubs.png" />
+    <None Remove="Assets\Deck1\K_Diamonds.png" />
+    <None Remove="Assets\Deck1\K_Hearts.png" />
+    <None Remove="Assets\Deck1\K_Spades.png" />
+    <None Remove="Assets\Deck1\Q_Clubs.png" />
+    <None Remove="Assets\Deck1\Q_Diamonds.png" />
+    <None Remove="Assets\Deck1\Q_Hearts.png" />
+    <None Remove="Assets\Deck1\Q_Spades.png" />
+    <None Remove="Assets\EmptyPile.png" />
+    <None Remove="Assets\giveUp.png" />
+    <None Remove="Assets\win.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Deck1\10_Clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\10_Diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\10_Hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\10_Spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\2_Clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\2_Diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\2_Hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\2_Spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\3_Clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\3_Diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\3_Hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\3_Spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\4_Clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\4_Diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\4_Hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\4_Spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\5_Clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\5_Diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\5_Hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\5_Spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\6_Clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\6_Diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\6_Hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\6_Spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\7_Clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\7_Diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\7_Hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\7_Spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\8_Clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\8_Diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\8_Hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\8_Spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\9_Clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\9_Diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\9_Hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\9_Spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\A_Clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\A_Diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\A_Hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\A_Spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\card_back.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\J_Clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\J_Diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\J_Hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\J_Spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\K_Clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\K_Diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\K_Hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\K_Spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\Q_Clubs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\Q_Diamonds.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\Q_Hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Deck1\Q_Spades.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\EmptyPile.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\giveUp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\win.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
